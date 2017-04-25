@@ -62,7 +62,7 @@ AFIST = _A Friendly Introduction to Software Testing_ by Bill Laboon
 
 * (4 July) INDEPENDENCE DAY - NO CLASS
 
-* Performance Testing, Parts 1 and 2
+* (6 July) Performance Testing, Parts 1 and 2
   * READING: AFIST, Chapter 19
 
 ## WEEK 9 (11 and 13 July)
