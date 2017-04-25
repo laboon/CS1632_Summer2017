@@ -30,9 +30,9 @@ Software Quality Assurance - Summer 2017
 
 **Recommended Texts:** 
 
-Test-Driven Development: By Example, Kent Beck ISBN-13: 978-0321146533
+_Test-Driven Development: By Example_, Kent Beck ISBN-13: 978-0321146533
 
-Software Testing: A Craftsman's Approach, Paul Jorgensen, ISBN-13: 978-1466560680
+_Software Testing: A Craftsman's Approach_, Paul Jorgensen, ISBN-13: 978-1466560680
 
 I have both of these texts available for you to borrow.
 
@@ -51,7 +51,7 @@ This course provides students with a broad understanding of modern software test
   * Includes numerous in-class exercises and lectures
   * See below
 
-Although you are not required to come to every class, it is strongly recommended that you do.  Attendance _will_ be taken for days with class exercises, and this will count for your class participation.  These days are listed on the syllabus as EX_n_ (where _n_ is in the range {1,10}.
+Although you are not required to come to every class, it is strongly recommended that you do.  Attendance _will_ be taken for days with class exercises, and this will count for your class participation.  These days are listed on the syllabus as EX_n_ (where _n_ is in the range {1,10}).
 
 The following grading scale will be used.  
 

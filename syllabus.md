@@ -6,21 +6,19 @@ _Although the professor will make a best effort to have the class topic on the d
 AFIST = _A Friendly Introduction to Software Testing_ by Bill Laboon
 
 ## WEEK 1 (16 and 18 May)
-* 16 MAY: Introduction - What is Software Quality Assurance?
+* (16 MAY) Introduction - What is Software Quality Assurance?
   * Basic Testing Theory and Terminology
   * READING: AFIST, Chapters 2 - 4
 
-* 18 MAY: 
-  * Requirements Development
-  * Defects
+* (18 May) Requirements and Defects
   * READING: AFIST, Chapters 5 and 9
 
 ## WEEK 2 (23 and 25 May)
 
-* (30 May) Test Plans and Breaking Software
+* (23 May) Test Plans and Breaking Software
   * READING: AFIST, Chapters 6 - 8
 
-* (1 June) Test plan exercise (EX1)
+* (25 May) Test plan exercise (EX1)
 
 ## WEEK 3 (30 May and 1 June)
 
@@ -32,11 +30,11 @@ AFIST = _A Friendly Introduction to Software Testing_ by Bill Laboon
 
 ## WEEK 4 (6 and 8 June)
 
-* (8 June) Unit Testing Part 2
+* (6 June) Unit Testing Part 2
   * Unit Testing Exercise (EX3)
   * READING: AFIST, Chapter 14
 
-* (10 June) Test-driven Development
+* (8 June) Test-driven Development
   * READING: AFIST, Chapter 15
 
 ## WEEK 5 (13 and 15 June)
@@ -62,7 +60,7 @@ AFIST = _A Friendly Introduction to Software Testing_ by Bill Laboon
 
 ## WEEK 8 (4 and 6 July)
 
-* INDEPEDENCE DAY (4 JUL) - NO CLASS
+* (4 July) INDEPENDENCE DAY - NO CLASS
 
 * Performance Testing, Parts 1 and 2
   * READING: AFIST, Chapter 19
