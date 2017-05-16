@@ -25,8 +25,8 @@ Software Quality Assurance - Summer 2017
 **Required Text:** _A Friendly Introduction to Software Testing_ by Bill Laboon.
 * This is a PDF and is available on Github
   * https://github.com/laboon/software-testing/blob/master/software-testing-laboon-ebook.pdf
-* If you like, you may purchase a physical copy on Amazon at: http://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377/ or CreateSpace at: https://www.createspace.com/6008739 .  It is $29.95 at either.
-  * However, this is NOT NECESSARY.  All material is available online, either in this repository or in the (freely available) PDF version of the book linked above.  However, some people prefer to have a physical copy.
+* If you like, you may purchase a physical copy on Amazon at: http://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377/ or CreateSpace at: https://www.createspace.com/6008739 .
+  * However, I want to emphasize that this is NOT NECESSARY.  All material is available online, either in this repository or in the (freely available) PDF version of the book linked above.  However, some people prefer to have a physical copy.
 
 **Recommended Texts:** 
 
