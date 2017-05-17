@@ -97,7 +97,7 @@ The semester, we will work mostly on one large application, and it will progress
 * **Deliverable 5:** Improving a system based on the results of static analysis.
 * **Final Deliverable:** An analysis and test strategy for a large application.
 
-Deliverables must be handed in by close of class on the day that it is due.  Late deliverables will NOT be accepted except in the case of an emergency.
+Deliverables must be handed in by the beginning of class on the day that it is due.  Late deliverables will NOT be accepted except in the case of an emergency.
 
 ## Programming Language Selection
 
