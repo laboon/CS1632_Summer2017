@@ -25,7 +25,7 @@ behavior, not OBSERVED behavior:                     ____ / 10
   * Test correct (expected) behavior
 
 Expected behavior and execution
-steps are SPECIFIC:                                  ____ / 10
+steps are SPECIFIC:                                  ____ / 15
   * No generalities (e.g. "enter a letter"; should be "enter X")
   * Tester could easily reproduce steps
 
