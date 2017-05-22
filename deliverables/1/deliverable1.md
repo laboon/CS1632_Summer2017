@@ -7,7 +7,9 @@ Summer Semester 2017
 
 ## Deliverable 1
 
-For this assignment, your group will determine a test plan for JBefunge, based on the requirements listed in the file requirements.md.  Note that these are a _subset_ of all of the requirements of the program.  There are several known defects in the software; you will need to find and report on at least three, as well as request one enhancement.  Additionally, a traceability matrix showing the mapping of test cases to requirements is required.  
+For this assignment, your group will determine a test plan for JBefunge, based on the requirements listed in the file requirements.md.  Note that these are a _subset_ of all of the requirements of the program.  There are several known defects in the software; you will need to find and report on at least three, as well as request one enhancement.  Additionally, a traceability matrix showing the mapping of test cases to requirements is required.
+
+The JBefunge IDE repository is here: https://github.com/laboon/JBefunge
 
 Time will be given in class to group yourself into groups.  There should be two and only two members of a group.
 
