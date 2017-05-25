@@ -9,7 +9,7 @@ Each requirement should have AT LEAST one test case associated with it, and each
 
 Test cases should mention all necessary preconditions, execution steps, and postconditions.
 
-It is expected that you actually execute the test plan in order to find the defects, along with some exploratory testing to determine how the system works and where defects might lie.  There are AT LEAST three defects.  Full credit will be given only to those who properly find and describe at least three.  While you are not expected to find *all* of the defects, a reasonable test plan should definitely find at least two.  This is an intentionally target-rich environment.
+It is expected that you actually execute the test plan in order to find the defects, along with some exploratory testing to determine how the system works and where defects might lie.  There are AT LEAST two defects.  Full credit will be given only to those who properly find and describe at least two.  While you are not expected to find *all* of the defects, a reasonable test plan should definitely find at least two.  This is an intentionally target-rich environment.
 
 You should EMAIL me the completed test plan.  This must be in to me by the next class, although I highly recommend you work on it in class.
 
@@ -42,12 +42,11 @@ Other attributes of a defect (e.g., SEVERITY or IMPACT) are not necessary.  The 
 ## Grading
 
 ```
-Attendance - 0.5 point
 Test cases - 1.0 point
-Defects (2) - 0.5 point
+Defects (2) - 1.0 point
 Total: 2 points
 
-You may get partial credit for any part except for attendance.
+You may get partial credit for either part.
 ```
 
 ## GoatGoatCar
