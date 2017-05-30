@@ -10,7 +10,7 @@ For full credit, all three defects should follow the defect reporting template d
 	 EXPECTED BEHAVIOR:
 	 OBSERVED BEHAVIOR:
 
-Other attributes of a defect (e.g., SEVERITY or IMPACT) are not necessary.  The test case which found the defect should be listed as part of the DESCRIPTION.
+Other attributes of a defect (e.g., SEVERITY or IMPACT) are not necessary.
 
 ## Professor Wumpus
 Professor Wumpus is an action-packed game of turning in your CS homework.  There are three characters:
