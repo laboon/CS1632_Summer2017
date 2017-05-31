@@ -18,13 +18,13 @@ You should turn in a title page with:
 * The URL of your code and tests on GitHub
 * The title "CS 1632 - DELIVERABLE 2: Unit Testing"
 
-ENSURE THAT NANNAN (THE TA) AND I ARE ADDED AS A COLLABORATOR AND CAN CLONE YOUR REPOSITORY!  My username is laboon on both GitHub.  The TA's username is NannanWen.  You will lose an automatic 10 points if either I or the TA cannot access your repository.
+ENSURE THAT NANNAN (THE TA) AND I ARE ADDED AS A COLLABORATOR AND CAN CLONE YOUR REPOSITORY!  My username is laboon.  The TA's username is NannanWen.  You will lose an automatic 10 points if either I or the TA cannot access your repository.
 
 Add a short ( < 1 page ) description of issues you faced when writing this code and tests.  If any tests you wrote fail, they should be included here, along with why you think that they are failing. 
 
 After this, ON A SEPARATE PAGE, include a screen shot of the executed unit tests.    If a test doesn't pass, it should be included in the concerns section above.  Ideally, all tests should be green (passing).  However, if you have what you think is a valid test and it is not passing, I would prefer that you include a note (and perhaps comment out the tests) rather than just deleting it.  Knowing that a defect exists and reporting it is much better than having it discovered by the customer (me)!
 
-There is no need to print out the code.  It should be on GitHub (or GitLab) BY THE BEGINNING OF CLASS.
+There is no need to print out the code.  It should be on GitHub BY THE BEGINNING OF CLASS.
 
 At least three (3) unit tests should use test doubles and/or mocks.
 
@@ -33,8 +33,6 @@ At least three (3) unit tests should use stubbing of methods.
 I expect unit tests for all methods that you add, using a variety of assertions and looking at different failure modes and edge cases.  You should make all methods that you add public.  Keep in mind some of the things we learned when doing manual testing; you should be cognizant of equivalence classes, boundary values, etc. etc., and focus on them.  There should be, at an absolute bare minimum, 20 unit tests.  You will most likely require more if you perform good object-oriented design.
 
 I warn you, write tests as you write methods!  Do not try to write the whole program and then write tests for it afterwards.  You will write untestable code and may need to rewrite major parts of your program.  Trust me on this one!  Testing is not something that should be done after development is complete.
-
-The program should use appropriate object-oriented design.  Do not attempt to do this entirely with static methods and variables, without classes, etc.  It is, of course, possible but will make testing more difficult!
 
 Before each test, add some comments (two or three sentences, on average) explaining what the test is checking.  For example...
 
@@ -59,6 +57,10 @@ Before each test, add some comments (two or three sentences, on average) explain
 
 ## Grading
 I remind you that grammar and good code count as well as functionality.  By good code, I mean -
+
+Variables and methods are well-named and explanatory.
+
+All methods are commented with JavaDoc.
 
 No commented-out code unless there's an EXPLICIT reason, e.g.
 ```java
