@@ -39,10 +39,10 @@ AFIST = _A Friendly Introduction to Software Testing_ by Bill Laboon
 
 ## WEEK 5 (13 and 15 June)
 
-* (13 June) Unit Testing Exercise 2 (EX4)
-
-* (15 June) Writing Testable Code
+* (13 June) Writing Testable Code
   * READING: AFIST, Chapter 16
+
+* (15 June) Unit Testing Exercise 2 (EX4)
 
 ## WEEK 6 (20 and 22 June)
 
