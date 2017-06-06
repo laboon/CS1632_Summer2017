@@ -2,7 +2,7 @@
 
 You have probably heard of Bitcoin or another cryptocurrency such as Ethereum, Litecoin, or Monero.  Today we are going to make our own blockchain to create a very simple way of storing data and cryptographically verifying it.  We will do so by filling in a template program, LaboonCoin, and write tests to ensure that your methods are doing what you expect them to be doing.
 
-Blockchains work by creating a "block" of data, and having computers "work" to provide a verification of that data.  This work involves finding a particular "nonce" value which will make the hash value of the data have a specific format (in our case, having three zeros as its first three hexits).  The data to be hashed also includes the previous hash, thus "linking" the two blocks.  By doing this repeatedly, a series of cryptographically signed blocks are formed.  These not only prove that the data is valid, but also that it was added to the blockchain at a certain time.
+Blockchains work by creating a "block" of data, and having computers "work" to provide a verification of that data.  This work involves finding a particular "nonce" value which will make the hash value of the data have a specific format (in our case, having _n_ zeros as its first _n_ hexits).  The data to be hashed also includes the previous hash, thus "linking" the two blocks.  By doing this repeatedly, a series of cryptographically signed blocks are formed.  These not only prove that the data is valid, but also that it was added to the blockchain at a certain time.
 
 Hashing gives you a specific, finite value for a larger sequence of values.  It will allow us to compare data without looking at every single character.  Let us imagine an extremely simple hash function, which only accepts capital letters, and returns a single value between 0 and 25 for that string.  The function accepts a string (which consists only of capital letters), and converts each letter to an equivalent value based on its alphabetical location (e.g A = 1, B = 2, C = 3, ... Z = 26).  We now add each value, and then take that final value, modulo 26.
 
@@ -31,7 +31,7 @@ Note that this project is a very, very simple implementation of a blockchain, mi
 
 ## Sample Output
 
-Your output should be exactly like this (this is an entirely deterministic calculation based on the input).
+Your output should look _exactly_ like this (everything is an entirely deterministic calculation based on the input).
 
 ```
 Enter data > Alice gave Bob $10
@@ -125,7 +125,7 @@ For a more detailed understanding, I recommend reading my "Friendly Introduction
 
 ### Submission
 
-Email me a link to repository (e.g., https://github.com/YOUR_GITHUB_USERNAME/CS1632_Exercise3) and the names and github usernames (as well as their actual names) of the people who worked on it.  This should be done _before_ the next class.
+Email me a link to repository (e.g., https://github.com/YOUR_GITHUB_USERNAME/CS1632_Exercise3) and the names and github usernames (as well as their actual names) of the people who worked on it.  This should be done _before_ next Tuesday's class class (i.e., you have one week to work on it).
 
 ```
 Grading:
