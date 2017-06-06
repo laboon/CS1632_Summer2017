@@ -138,7 +138,7 @@ For a more detailed understanding, I recommend reading my "Friendly Introduction
 3. Type `git add .`
 4. Type `git commit -am "final"`
 5. Type `git push origin master`
-6. Go to https://github.com/YOUR_GITHUB_USERNAME/CS1530_Exercise3 in your browser and ensure that you see all of the files you expected to see.
+6. Go to https://github.com/YOUR_GITHUB_USERNAME/CS1632_Exercise3 in your browser and ensure that you see all of the files you expected to see.
 
 ### Submission
 
