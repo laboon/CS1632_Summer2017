@@ -34,51 +34,56 @@ Note that this project is a very, very simple implementation of a blockchain, mi
 Your output should look _exactly_ like this (everything is an entirely deterministic calculation based on the input).
 
 ```
-Enter data > moo
-Hash (just data) = e3e7531d
+(21410) $ java LaboonCoin
+Enter data > boo
+Hash (just data) = 551fda32
 Mining..
-Found nonce 000018d9!
-Final hash 677d283d!
-Enter data > bar
-Hash (just data) = 26105ec8
+Found nonce 000010bb!
+Final hash 000b43be!
+Enter data > boo
+Hash (just data) = 551fda32
 Mining..
-Found nonce 00002616!
-Final hash 9e209538!
-Enter data > baz
-Hash (just data) = 363572e8
+Found nonce 000005a1!
+Final hash 00075500!
+Enter data > boo
+Hash (just data) = 551fda32
 Mining..
-Found nonce 000017f5!
-Final hash fe2b76f7!
-Enter data > pool
-Hash (just data) = c1a1b46c
+Found nonce 000016da!
+Final hash 000f593c!
+Enter data > quock
+Hash (just data) = 7947a9e1
 Mining..
-Found nonce 000021bc!
-Final hash cd527ebb!
+Found nonce 00000229!
+Final hash 000064f6!
 Enter data > loop
 Hash (just data) = c1a276b0
 Mining..
-Found nonce 00000c49!
-Final hash 7328cd49!
-Enter data > loop
-Hash (just data) = c1a276b0
+Found nonce 00002815!
+Final hash 00086d30!
+Enter data > mars
+Hash (just data) = 506f9b5d
 Mining..
-Found nonce 00001413!
-Final hash f685d3ae!
+Found nonce 00004dfa!
+Final hash 0008ff9f!
+Enter data > mars
+Hash (just data) = 506f9b5d
+Mining..
+Found nonce 00000513!
+Final hash 00082253!
 Enter data > q
 Final Blockchain:
-moo|00000000|000018d9|677d283d
-bar|677d283d|00002616|9e209538
-baz|9e209538|000017f5|fe2b76f7
-pool|fe2b76f7|000021bc|cd527ebb
-loop|cd527ebb|00000c49|7328cd49
-loop|7328cd49|00001413|f685d3ae
+boo|00000000|000010bb|000b43be
+boo|000b43be|000005a1|00075500
+boo|00075500|000016da|000f593c
+quock|000f593c|00000229|000064f6
+loop|000064f6|00002815|00086d30
+mars|00086d30|00004dfa|0008ff9f
+mars|0008ff9f|00000513|00082253
 ```
 
 Note that the initial "previous hash" is zero in the first transaction.
 
-Note that although the second and third transactions are the same data, they require a different nonce because they included the previous hash as part of the block's data.
-
-Note also that the third block has a hash with four leading zeros.  Since it is _at least_ three leading zeros, it is valid.
+Note that although the some of the transactions are the same data, they require a different nonce because they included the previous hash as part of the block's data.
 
 ## Running Unit Tests
 

@@ -152,9 +152,10 @@ public class LaboonCoin {
 		System.out.println("Mining..");
 		int nonce = mine(data, prevHash, difficulty);
 		System.out.println("Found nonce " + String.format("%08x", nonce) + "!");
-		int finalHash = hash(data 
-				     + String.format("%08x", prevHash)
-				     + String.format("%08x", nonce));
+		int finalHash = hash( 
+				     String.format("%08x", prevHash)
+				     + String.format("%08x", nonce)
+				     + data);
 		System.out.println("Final hash " + String.format("%08x", finalHash) + "!");
 		prevHash = finalHash;
 
