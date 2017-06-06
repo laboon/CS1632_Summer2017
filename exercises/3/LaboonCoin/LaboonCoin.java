@@ -105,13 +105,12 @@ public class LaboonCoin {
      */
     
     public int mine(String data, int prevHash, int difficulty) {
-	String rootData = data + String.format("%08x", prevHash);
 	int nonce = 0;
 	String toTry;
 	int hashVal = 0;
 	boolean foundNonce = false;
 	while (!foundNonce) {
-	    toTry = rootData + String.format("%08x", nonce);
+	    toTry = String.format("%08x", prevHash) + String.format("%08x", nonce) + data;
 	    // Uncomment for debugging purposes
 	    // System.out.print("Trying: " + toTry + ".. ");
 	    

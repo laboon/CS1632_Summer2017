@@ -9,7 +9,7 @@ public class LaboonCoinTest {
     @Test
     public void testLaboonCoinExists() {
 	LaboonCoin l = new LaboonCoin();
-	assertNotNull(l);
+	assertNull(l);
     }
     
 }

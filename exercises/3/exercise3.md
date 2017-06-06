@@ -34,32 +34,44 @@ Note that this project is a very, very simple implementation of a blockchain, mi
 Your output should look _exactly_ like this (everything is an entirely deterministic calculation based on the input).
 
 ```
-Enter data > Alice gave Bob $10
-Hash (just data) = ec7e4c20
+Enter data > moo
+Hash (just data) = e3e7531d
 Mining..
-Found nonce 001aa59c!
-Final hash 000e854a!
-Enter data > Bob gave Sam $5
-Hash (just data) = 217b1ca9
+Found nonce 000018d9!
+Final hash 677d283d!
+Enter data > bar
+Hash (just data) = 26105ec8
 Mining..
-Found nonce 00000227!
-Final hash 00041551!
-Enter data > Bob gave Sam $5
-Hash (just data) = 217b1ca9
+Found nonce 00002616!
+Final hash 9e209538!
+Enter data > baz
+Hash (just data) = 363572e8
 Mining..
-Found nonce 0000255f!
-Final hash 0000d386!
-Enter data > Sam gave Alice $7 
-Hash (just data) = 0149a5f3
+Found nonce 000017f5!
+Final hash fe2b76f7!
+Enter data > pool
+Hash (just data) = c1a1b46c
 Mining..
-Found nonce 0000377e!
-Final hash 000a07ac!
+Found nonce 000021bc!
+Final hash cd527ebb!
+Enter data > loop
+Hash (just data) = c1a276b0
+Mining..
+Found nonce 00000c49!
+Final hash 7328cd49!
+Enter data > loop
+Hash (just data) = c1a276b0
+Mining..
+Found nonce 00001413!
+Final hash f685d3ae!
 Enter data > q
 Final Blockchain:
-Alice gave Bob $10|00000000|001aa59c|000e854a
-Bob gave Sam $5|000e854a|00000227|00041551
-Bob gave Sam $5|00041551|0000255f|0000d386
-Sam gave Alice $7|0000d386|0000377e|000a07ac
+moo|00000000|000018d9|677d283d
+bar|677d283d|00002616|9e209538
+baz|9e209538|000017f5|fe2b76f7
+pool|fe2b76f7|000021bc|cd527ebb
+loop|cd527ebb|00000c49|7328cd49
+loop|7328cd49|00001413|f685d3ae
 ```
 
 Note that the initial "previous hash" is zero in the first transaction.
