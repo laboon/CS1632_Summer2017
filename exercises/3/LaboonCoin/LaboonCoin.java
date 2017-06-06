@@ -46,7 +46,7 @@ public class LaboonCoin {
      *   4. After multiplication, add the value of the ASCII (char) value to n
      *   5. Return n
      * For example, the LaboonHash of "boo" is:
-     *   n = 1000000
+     *   n = 10000000
      *   n = (n * 98) + 98 // 98 = ASCII of 'b'
      *   n = (n * 111) + 111 // 111 = ASCII of 'o'
      *   n = (n * 111) + 111 // 111 = ASCII of 'o'
