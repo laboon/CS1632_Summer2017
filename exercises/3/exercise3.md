@@ -74,14 +74,12 @@ If you do this in an IDE such as Eclipse, or with a build tool such as Gradle, t
 
 First, we need to create a test runner.  I have created a simple one (TestRunner.java) for you, along with a very rudimentary unit test file.  They are located in the LaboonCoin subdirectory.  This will also include the two jar files you will need to use junit.  
 
-To run it, you will need to compile it and ensure that the junit and hamcrest jars are in your classpath.
+To run it, you will need to compile it and ensure that the junit and hamcrest jars are in your classpath.  These are included in the repository for your convenience.
 
 ```
 $ javac -cp .:./junit-4.12.jar:./hamcrest-core-1.3.jar *.java
 
 $ java -cp .:./junit-4.12.jar:./hamcrest-core-1.3.jar TestRunner
-
-!!! - At least one failure, see above.
 ```
 
 Replace ":" with ";" on Windows machines ( `java -cp .;./junit-4.12.jar;./hamcrest-core-1.3.jar TestRunner` ) .  If you are using Windows 7, you will also need to put the classpath argument entirely in quotes ( `java -cp ".;./junit-4.12.jar;./hamcrest-core-1.3.jar" TestRunner` )

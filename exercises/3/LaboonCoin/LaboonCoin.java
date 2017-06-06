@@ -2,7 +2,7 @@ import java.util.*;
 
 public class LaboonCoin {
 
-    ArrayList<String> blockchain = new ArrayList<String>();
+    public ArrayList<String> blockchain = new ArrayList<String>();
 
     /**
      * Given a block's data, the previous hash, a nonce, and a final
@@ -64,6 +64,7 @@ public class LaboonCoin {
      */
     
     public int hash(String data) {
+	// TODO
 	return -1;
     }
 
@@ -83,7 +84,8 @@ public class LaboonCoin {
      */
     
     public boolean validHash(int difficulty, int hash) {
-	return false;
+	// TODO
+	return true;
     }
 
     /**
@@ -110,7 +112,8 @@ public class LaboonCoin {
 	boolean foundNonce = false;
 	while (!foundNonce) {
 	    toTry = rootData + String.format("%08x", nonce);
-	    System.out.print("Trying: " + toTry + ".. ");
+	    // Uncomment for debugging purposes
+	    // System.out.print("Trying: " + toTry + ".. ");
 	    
 	    hashVal = hash(toTry);
 	    System.out.println("hash: " + String.format("%08x", hashVal));
