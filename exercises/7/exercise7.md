@@ -37,7 +37,7 @@ As part of this assignment, you should create "pinning tests".  Pinning tests ar
 
 There should be at least three pinning tests per method modified (check different edge cases).  
 
-You should show me your faster MonkeySim code in class.  This exercise must be completed before the end of class.
+You should email me a link to your fixed MonkeySim code by the beginning of the next class.
 
 ```
 Methods changed, performance improved: 1 point
