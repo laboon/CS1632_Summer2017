@@ -38,7 +38,7 @@ Sieve of Eratosthenes
 
 ## Fix Bugs
 
-1. Fix all of the defects found by the FindBugs program, _except_ any ones labeled Dead Local Store.  These are often false positives and I have found it useful to ignore them.
+1. Fix all of the defects found by the FindBugs program, _except_ any ones labeled Dead Local Store.  These are often false positives and I have found it useful to ignore them (a "dead local store" is a variable whose value is not read after assignment.  However, Java's compiler puts "dummy" values for final local variables, and since FindBugs only reads compiled bytecode, it often tells you about these problems which you have no way of fixing from a code perspective).
 2. Ensure that the Sieve program still works by sending in a few different values (there is no need for "official" pinning tests for this assignment, although it would be a good idea to do in industry)
 
 ## Grading
