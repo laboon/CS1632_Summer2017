@@ -110,7 +110,7 @@ public void testChangeCatName() {
    assertEquals(c.getName(), newName);
 }
 ```
-3. If you are going to have to double an object inside a method, be sure to allow it to be passed in as an argument!  This is called _dependency injection_.  We will discuss further in the lecture __Writing Testable Code__.  Example:
+3. If you are going to have to double an object inside a method, be sure to allow it to be passed in as an argument!  This is called _dependency injection_.  Example:
 ```
 // BAD - how can we double Duck?
 public int lotsOfQuacks() {
