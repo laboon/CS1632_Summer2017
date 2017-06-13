@@ -157,9 +157,11 @@ public class LaboonCoin {
 				     + String.format("%08x", nonce)
 				     + data);
 		System.out.println("Final hash " + String.format("%08x", finalHash) + "!");
-		prevHash = finalHash;
 
 		String newBlock = createBlock(data, prevHash, nonce, finalHash);
+
+		prevHash = finalHash;
+
 		blockchain.add(newBlock);
 	    }
 	    
