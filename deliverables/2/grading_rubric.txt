@@ -1,0 +1,50 @@
+Summary (5%):                                              _____ / 5
+  * No typos or grammatical errors (only up to -4)
+  * Describe at least one issue
+
+Screenshot of executed unit tests (10%):                    _____ / 5
+
+Program code (45%):
+
+Increment / decrement ('i'/'d') work:                       _____ / 10
+
+Take ('t') command works:                                   _____ / 5
+
+Reverse stack ('r') command works:                          _____ / 10
+
+Comments ('('/')') work:                                    _____ / 15
+
+No regression failures:                                     _____ / 5
+  * Test by running FizzBuzz
+
+Test Code (45%):
+
+Public methods tested:                                      _____ / 15
+  * All public methods added tested (-3 for each one that is not)
+  * All tests must have assertions (-3 for each one that is not)
+  * All tests must be annotated w/ @Test (-3 for each one that is not)
+
+Tests valid:                                          _____ / 15
+  * Check a variety of situations, edge cases, failure modes
+  * Test cases test what they are testing
+
+At least 3 doubles used:                                    _____ / 5
+  * Proper doubles / or mocks used (0: -5, 1: -4, 2: -3)
+
+At least 3 stubs used:                                      _____ / 5
+  * Proper stubs used (0: -5, 1: -4, 2: -3)
+
+Good style:                                                 _____ / 5
+  * All tests properly commented with descriptions (-2 each if not, up to -4)
+  * No gratuitously ugly, superfluous, or commented code (up to -4)
+
+If tests cannot run, 20 points for this section MAXIMUM.  If number of added tests < 20, -5 for each number below 20.
+
+-----
+
+Submission issues (-10) or other adjustments:               _____
+
+Total:                                                      _____ / 100
+
+
+
