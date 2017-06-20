@@ -1,21 +1,21 @@
-Summary (5%):                                              _____ / 5
+Summary (5%):                                               _____ / 5
   * No typos or grammatical errors (only up to -4)
   * Describe at least one issue
 
-Screenshot of executed unit tests (10%):                    _____ / 5
+Screenshot of executed unit tests (5%):                     _____ / 5
 
 Program code (45%):
 
 Increment / decrement ('i'/'d') work:                       _____ / 10
 
-Take ('t') command works:                                   _____ / 5
+Take ('t') command works:                                   _____ / 10
 
 Reverse stack ('r') command works:                          _____ / 10
 
 Comments ('('/')') work:                                    _____ / 15
-
-No regression failures:                                     _____ / 5
-  * Test by running FizzBuzz
+  * -10 if one of the samples works
+  
+If FizzBuzz doesn't work, -15 for regression failure.
 
 Test Code (45%):
 
@@ -39,6 +39,7 @@ Good style:                                                 _____ / 5
   * No gratuitously ugly, superfluous, or commented code (up to -4)
 
 If tests cannot run, 20 points for this section MAXIMUM.  If number of added tests < 20, -5 for each number below 20.
+If there are failing tests, -4 for each failing test, UNLESS they mention it in the Summary, in which case -2.
 
 -----
 
