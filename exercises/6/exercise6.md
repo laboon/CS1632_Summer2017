@@ -2,7 +2,9 @@
 
 In this exercise, you will test a real web application - the Hibersense portal.  You will perform 20 to 30 minutes of exploratory testing, and then write 4 Selenium/Junit tests to test some subset of its functionality.  Ideally, these Selenium tests will check for a defect that you found.
 
-Your four tests are _not_ expected to cover all, or even most, of the functionality embedded in the requirements.  However, during your exploratory testing, I expect you to at least do some minimal testing for each requirement.
+Your group will get +0.5 bonus points (= +0.5% on your final grade) for each _valid_ defect that you find and report.  There is a maximum of +1 bonus point (= +1% on your final grade) on this assignment (in other words, you will not get credit for finding more than two defects).  In the case that multiple groups report the same defect, the first to report it gets the bonus points for it.
+
+Your four Selenium tests are _not_ expected to cover all, or even most, of the functionality embedded in the requirements.  However, during your exploratory testing, I expect you to at least do some minimal testing for each requirement.
 
 Note that this exercise _must_ be done in a group, as we have a limited number of logins to the Hibersense system.
 
