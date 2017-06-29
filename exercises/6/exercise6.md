@@ -26,7 +26,7 @@ FUN-VIEW-PAGE - After selecting a sensor, data for that sensor shall be viewable
 
 FUN-VIEW-CHART - The chart on the View page ( https://hibersense.com/access/view) shall be adjustable to any time range.
 
-FUN-TEMP-SCALE - There shall be a button on the page to switch between Fahrenheit and Celsius temperature scales.  After selecting 
+FUN-TEMP-SCALE - There shall be a button on the page to switch between Fahrenheit and Celsius temperature scales.  After selecting this button, all temperature scales shall be shown as selected (e.g., after selecting Fahrenheit, all temperatures shall be shown in Fahrenheit).
 
 FUN-TEMP-PAGE - The page at https://hibersense.com/access/temperature shall allow users to select their subjective assessment of the current temperature, which shall be one of the following options: Cold, Cool, Perfect, Warm, Hot.
 
