@@ -3,7 +3,7 @@
 For this exercise, you and a partner will profile some monkey simulation software, and improve its performance by refactoring two methods (to be determined by the results of the profiling), as well as writing appropriate pinning tests for each of them.  This will consist of several parts:
 
 1. Profiling (before) to determine which methods are the most CPU-intensive
-2. Adding at least three pinning tests (in the form of unit tests) to each modified method to show that the functionality is unchanged by your modifications
+2. Adding at least two pinning tests (in the form of unit tests) to each modified method to show that the functionality is unchanged by your modifications
 3. Refactoring the method to be more performant (from a CPU and time perspective)
 4. Profiling (after) showing that your rewrite helped make your method more performant
 
@@ -41,6 +41,6 @@ You should email me a link to your fixed MonkeySim code by the beginning of the 
 
 ```
 Methods changed, performance improved: 1 point
-Pinning tests (6): 1 point
+Pinning tests (4): 1 point
 ```
  
