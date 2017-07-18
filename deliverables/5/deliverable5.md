@@ -5,7 +5,7 @@ DUE 25 JUL 2017
 
 ## Deliverable 5
 
-For this assignment, you and a partner will use static analysis to develop a pairwise test generator.
+For this assignment, you and a partner will use static analysis as part of developing a pairwise test generator.
 
 This project will consist of the following steps:
 
