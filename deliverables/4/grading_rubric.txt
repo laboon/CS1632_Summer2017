@@ -1,0 +1,43 @@
+Summary                                                   ____ / 10
+  * Explain how KPIs were determined (-5 if not)
+  * If program meets KPIs, describes 
+  * If not, describes additional work to be done (-5 if not)
+
+KPIs                                                      ____ / 10
+  * Must be three (-8 if not)
+  * Must be quantitative (-4 each if not)
+  * Must be achievable/realistic (-2 each if not)
+
+VisualVM (or other profiler) screenshots                  ____ / 5
+  * Both before and after (-4 if only one)
+
+Initial and final measurements                            ____ / 5
+  * -4 if not at least three of each 
+  * -3 if no mean value
+  
+Performance refactoring                                   ____ / 45
+  * If program does not compile, maximum 10/45 for this section
+  * Performance has improved by some measure (-20 if not)
+    * Resource utilization, execution time, or other performance
+    * Not functional changes
+  * Two modifications made (-20 if only one)
+  * General code quality (up to -5)
+  * Fizzbuzz.bf still runs (i.e. no regression) (-20 if not)
+  * Performance changes result from VisualVM results (-5 if not)
+  
+Pinning Tests                                             ____ / 25
+  * If tests do not compile, maximum 10/25 for this section
+  * Tests check modified methods/functionality (-5 if not)
+  * Tests all pass (-10 if not)
+  * Changes to Program*.java (except for ProgramExecutor.run()
+    must have unit tests, not manual (-5 per method not tested)
+  * Unit tests have good comments explaining them (-2 each, if not)
+  * Unit tests all have assertions (-5 each, if not)
+  * Manual tests follow correct format (preconditions, execution
+    steps, postconditions) (-5 each, if not)
+  * General code quality (up to -5)
+
+Submission issues or other adjustments                    ____ / 0
+
+Total                                                     ____ / 100
+
