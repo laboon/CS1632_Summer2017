@@ -11,7 +11,7 @@ This project will consist of the following steps:
 
 1. Write a program which accepts a list of arguments, then uses the naive pairwise test generation algorithm discussed in class to determine a pairwise test plan
 1. Use findbugs and checkstyle to statically analyze your code
-2. Use checkstyle with the included configuration file (google_checks_modified.xml) to find any style issues with your code.
+2. Use checkstyle with the included configuration file (google_checks_modified.xml) to find any style issues with your code
 3. Fix *all* of the errors found by findbugs (with the exception of "Dead store to local variables" issues) and checkstyle
 
 Your final version should have no bugs found by findbugs (except for dead local stores) and no violations reported by checkstyle.

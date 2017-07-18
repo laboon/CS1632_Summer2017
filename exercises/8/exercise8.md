@@ -44,6 +44,6 @@ Sieve of Eratosthenes
 ## Grading
 
 ```
-Sieve still works: 1 point
+Sieve works: 1 point
 All FindBugs bugs fixed: 1 point
 ```
