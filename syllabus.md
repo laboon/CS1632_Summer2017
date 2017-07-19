@@ -82,7 +82,6 @@ AFIST = _A Friendly Introduction to Software Testing_ by Bill Laboon
 ## WEEK 11 (25 and 27 July)
 
 * (25 July) Developing a Testing Strategy
-  * Testing Strategy Exercise
 
 * (27 July) Stochastic and Property-Based Testing
   * READING: AFIST, Chapter 18

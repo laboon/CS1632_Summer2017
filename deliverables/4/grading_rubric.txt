@@ -1,6 +1,6 @@
 Summary                                                   ____ / 10
   * Explain how KPIs were determined (-5 if not)
-  * If program meets KPIs, describes 
+  * If program meets KPIs, describes why they were good (-5 if not)
   * If not, describes additional work to be done (-5 if not)
 
 KPIs                                                      ____ / 10
@@ -40,4 +40,3 @@ Pinning Tests                                             ____ / 25
 Submission issues or other adjustments                    ____ / 0
 
 Total                                                     ____ / 100
-
