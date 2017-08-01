@@ -11,7 +11,7 @@ Summary:                                         ____ / 5
   * -5 if appropriate message not shown for 1 arg
   * -10 if it does not show truth table for 2 args
   * -10 if does not show valid covering array for 3 args
-  * -10 if does not show valid covering array for 5 args
+  * -10 if does not show valid covering array for 4 args
   * -5 if "true" is not shown as 1, "false" as 0
   * -5 if program name is not "Pairwise"
   
